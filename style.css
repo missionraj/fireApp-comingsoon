@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+a {
+    color: #c4c4c4;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* navigation bar */
+
+.navbar { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #c4c4c4;
+    padding: 10px;
+}
+.navbar__logo{
+    height: 50px;
+    width: 100px;
+}
+.navabar__appstore { 
+    height: 60px;
+    width: 150px;
+}
+/* navigation bar */
+
+/* main */
+.main { 
+    color: #c4c4c4;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main___title { 
+    font-size: 3rem;
+    font-weight: bold;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    color: transparent;
+}
+.main__InputWrapper { 
+    display: flex;
+    height: 50px;
+    background-color: #353535;
+    border-radius: 5px;
+    padding: 5px;
+}
+.main__InputWrapper input { 
+    background-color: #353535;
+    color: #c4c4c4;
+    border: none;
+    flex: 1;
+}
+
+/* main */
+
+
+
+/* footer */
+.footer{ 
+
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    color: #c4c4c4;
+    padding: 10px;
+}
+/* footer */
